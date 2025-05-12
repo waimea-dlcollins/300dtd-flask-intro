@@ -13,6 +13,11 @@ def home():
 
 @app.get("/test/")
 def test():
-    return "<h1> testing... 1, 2, 3</h1>"
+    return render_template("pages/about.jinja")
+
+
+
+
+
 
 
